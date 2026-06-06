@@ -10,21 +10,21 @@ export const protfolioPosts: readonly SocialPost[] = [
   {
     name: "VSCode",
     image: vsCodeIcon,
-    link: "https://github.com/m4thieulavoie?org=microsoft",
+    link: "https://github.com/mattlavio?org=microsoft",
     text: `Contributed to FAST, used for the VSCode Design System.`,
     type: "contribution",
   },
   {
     name: "MDN Web Docs",
     image: mdnIcon,
-    link: "https://github.com/m4thieulavoie?org=mdn",
+    link: "https://github.com/mattlavio?org=mdn",
     text: `Contributed some bug fixes`,
     type: "contribution",
   },
   {
     name: "Brave Browser",
     image: braveIcon,
-    link: "https://github.com/m4thieulavoie?org=brave",
+    link: "https://github.com/mattlavio?org=brave",
     text: `Helped with a few contributions`,
     type: "contribution",
   },
@@ -37,8 +37,15 @@ export const protfolioPosts: readonly SocialPost[] = [
   {
     name: "Shopify",
     image: shopifyIcon,
-    link: "https://github.com/m4thieulavoie?org=shopify",
+    link: "https://github.com/mattlavio?org=shopify",
     text: `Working in the admin, contributing to Polaris`,
+    type: "contribution",
+  },
+  {
+    name: "Shopify Editions Winter 2026 — Custom sender name on labels",
+    image: shopifyIcon,
+    link: "https://www.shopify.com/ca/editions/winter2026#shipping",
+    text: `Shipped the Custom sender name on labels feature, featured in Shopify Editions Winter 2026.`,
     type: "contribution",
   },
   {
@@ -50,7 +57,7 @@ export const protfolioPosts: readonly SocialPost[] = [
       Git project template that include a ready-to-go project containing
       TypeScript/linting/SASS/Routing and more!
     </p>`,
-    link: "https://github.com/m4thieulavoie/webcomponents-starter",
+    link: "https://github.com/mattlavio/webcomponents-starter",
   },
   {
     type: "contribution",
@@ -60,7 +67,7 @@ export const protfolioPosts: readonly SocialPost[] = [
       Intrusive in-browser Axe reporter that lets you know as soon as you made
       an Accessibility error.
     </p>`,
-    link: "https://github.com/m4thieulavoie/axe-browser-reporter",
+    link: "https://github.com/mattlavio/axe-browser-reporter",
   },
   {
     type: "project",

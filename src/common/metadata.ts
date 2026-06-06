@@ -1,14 +1,14 @@
 export const firstName = "Matt";
 export const lastName = "Lavoie";
 export const fullName = `${firstName} ${lastName}`;
-export const roleName = "Staff Frontend Developer";
+export const roleName = "Senior Frontend Developer";
 export const address = "57, Rue de la Pinède, Rimouski, Qc";
 export const phoneNumber = "(418) 509-4850";
 export const email = "mathieulavoie94@gmail.com";
 export const website = "m4thieulavoie.dev";
-export const currentCompany = "Shopify";
+export const currentCompany = "Float";
 export const careerOverview =
-  "I am a passionate Frontend developer with more than 10 years of experience coding HTML, CSS and JavaScript. For the past ~2 years, Design Systems have had a special place in my heart. I had the chance to successfully help a previous company build and scale one. I also am an open source contributor to Microsoft's FAST. I am particularly comfortable in Web Components, React, TypeScript and (S)CSS.";
+  "I am a passionate Frontend developer with more than 11 years of experience crafting HTML, CSS and JavaScript. Design Systems have been a core focus of my career for the past 6 years — from building and scaling one at LogMeIn, to contributing to Polaris at Shopify, to owning the design system as part of Float's Frontend Platform team. I am particularly comfortable in TypeScript, React, Web Components and (S)CSS, and I care deeply about frontend architecture, developer experience and accessibility. I am also increasingly passionate about leveraging AI and automation to boost developer productivity — whether through AI-assisted tooling, automated workflows, or integrating LLMs into the development process.";
 export type Skill =
   | "HTML"
   | "CSS/SASS"
@@ -53,10 +53,22 @@ export interface JobHistory {
 
 export const jobHistory: readonly JobHistory[] = [
   {
-    company: "Shopify",
+    company: "Float",
     skills: ["CSS/SASS", "Git", "HTML", "JavaScript", "React", "TypeScript"],
     title: "Senior Frontend Developer",
-    dates: "August 2021 - Today",
+    dates: "May 2026 - Today",
+    tasks: [
+      "Work on the Frontend Platform team, owning the design system, frontend tooling, best practices and core frontend architecture",
+      "Build and scale a design system used across the product",
+      "Define and champion frontend best practices across engineering teams",
+      "Improve developer experience through tooling, automation and strong frontend foundations",
+    ],
+  },
+  {
+    company: "Shopify",
+    skills: ["CSS/SASS", "Git", "HTML", "JavaScript", "React", "TypeScript"],
+    title: "Staff Frontend Developer",
+    dates: "August 2021 - May 2026",
     tasks: [
       "Work on complex frontend features",
       "Help reshape our internal frontend architecture",

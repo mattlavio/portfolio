@@ -15,7 +15,7 @@ export function renderFooter(container: HTMLElement): void {
           © ${currentYear} Mathieu Lavoie • Built with vanilla TypeScript & Vite
         </p>
         <div class="footer-links">
-          <a href="https://github.com/m4thieulavoie" target="_blank" rel="noopener">
+          <a href="https://github.com/mattlavio" target="_blank" rel="noopener">
             [GitHub]
           </a>
         </div>

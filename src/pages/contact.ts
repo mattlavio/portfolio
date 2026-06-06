@@ -25,7 +25,7 @@ export function renderContact(container: HTMLElement): void {
           </li>
           <li>
             <strong>GitHub:</strong>
-            <a href="https://github.com/m4thieulavoie" target="_blank" rel="noopener">@m4thieulavoie</a>
+            <a href="https://github.com/mattlavio" target="_blank" rel="noopener">@mattlavio</a>
           </li>
         </ul>
       </div>
