@@ -1,11 +1,11 @@
 import { router } from '../common/router';
-import { renderHeader } from './header';
-import { renderFooter } from './footer';
 import { renderHome } from '../pages/home';
 import { renderResume } from '../pages/resume';
 import { renderPortfolio } from '../pages/portfolio';
 import { renderContact } from '../pages/contact';
 import { qs } from '../utils/dom';
+import { renderFooter } from './footer';
+import { renderHeader } from './header';
 
 export function initApp(): void {
   const appContainer = qs<HTMLDivElement>('#app');

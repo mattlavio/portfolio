@@ -6,8 +6,8 @@
 export type RouteHandler = () => void;
 
 interface Route {
-  path: string;
-  handler: RouteHandler;
+  readonly path: string;
+  readonly handler: RouteHandler;
 }
 
 class Router {

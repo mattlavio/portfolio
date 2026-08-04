@@ -7,8 +7,8 @@
  */
 export function createElement<K extends keyof HTMLElementTagNameMap>(
   tag: K,
-  attributes?: Record<string, string>,
-  children?: (HTMLElement | string)[]
+  attributes?: Readonly<Record<string, string>>,
+  children?: readonly (HTMLElement | string)[]
 ): HTMLElementTagNameMap[K] {
   const element = document.createElement(tag);
 
@@ -80,6 +80,6 @@ export function qs<T extends HTMLElement = HTMLElement>(
 export function qsa<T extends HTMLElement = HTMLElement>(
   selector: string,
   parent: HTMLElement | Document = document
-): T[] {
+): readonly T[] {
   return Array.from(parent.querySelectorAll<T>(selector));
 }

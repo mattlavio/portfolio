@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 0",
     "dev": "vite",
     "start": "vite",
-    "lint": "eslint --ext .ts src/",
+    "lint": "eslint src/",
     "clean": "rimraf dist",
     "build": "tsc --noEmit && vite build && copyfiles _redirects dist",
     "preview": "vite preview"
@@ -24,13 +24,19 @@
   },
   "homepage": "https://github.com/m4thieulavoie/webcomponents-starter#readme",
   "devDependencies": {
-    "@m4thieulavoie/linting": "1.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.66.0",
+    "@typescript-eslint/parser": "^8.66.0",
     "copyfiles": "2.4.1",
     "eslint": "10.8.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-functional": "^10.0.0",
+    "eslint-plugin-import-x": "^4.17.1",
+    "eslint-plugin-inclusive-language": "^2.2.1",
     "lodash-es": "4.18.1",
     "prettier": "3.9.6",
     "rimraf": "5.0.10",
-    "typescript": "5.9.3",
+    "typescript": "npm:@typescript/typescript6@^6.0.2",
+    "typescript-native": "npm:typescript@^7.0.2",
     "vite": "^6.0.0"
   },
   "dependencies": {
